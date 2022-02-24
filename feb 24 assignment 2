@@ -1,0 +1,21 @@
+lis=[]
+Number = int(input("How many elements in list : "))
+count=0 
+for i in range(1, Number + 1):
+    value = int(input("enter the Value Element : " ))
+    lis.append(value)
+for j in lis:
+    if(int(j)%2==0):
+        count=count+1 
+print(count)
+
+output
+
+How many elements in list : 5
+enter the Value Element : 9
+enter the Value Element : 8
+enter the Value Element : 7
+enter the Value Element : 6
+enter the Value Element : 5
+2
+> 
